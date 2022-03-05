@@ -1,11 +1,9 @@
 /*------------------------------------------------------------------
- * Website Name: Hustbee
- * App URI: http://www.brandio.io/envato/hustbee
- * Author: Brandio
- * Author URI: http://www.brandio.io/
+ * Website Name: Rcert EETA Body
+ * Author: Rutik Bhoyar
  * Description: 
  * Version: 1.0
- * Copyright 2018 Hustbee.
+ * Copyright 2022
  -------------------------------------------------------------------*/
 
 
@@ -1408,335 +1406,6 @@ nav.navbar .nav .open>a:focus {
 .features .img-holder img {
     width: 80%;
     max-width: 346px;
-}
-
-
-/* ----------------------------------
-    5 - Pricing Section Styles
------------------------------------*/
-
-.pricing {
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 80px;
-    text-align: center;
-}
-
-.pricing:before {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../images/cloud-bg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    opacity: 0.17;
-    z-index: -1;
-}
-
-.pricing .row-title {
-    font-size: 27px;
-    font-weight: 700;
-    color: #4d5666;
-    margin-bottom: 30px;
-}
-
-.pricing-box {
-    display: inline-block;
-    text-align: center;
-    border-radius: 5px;
-    padding: 40px 15px;
-    margin: 35px 0;
-    width: 100%;
-    /*max-width: 288px;*/
-    background-color: #ffffff;
-    z-index: 1;
-    -webkit-box-shadow: 0 0 0 1px #82a9ff;
-    box-shadow: 0 0 0 1px #82a9ff;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.pricing-box .pricing-title {
-    font-size: 23px;
-    font-weight: 300;
-    color: #3375e7;
-    margin-bottom: 15px;
-}
-
-.pricing-box .pricing-icon {
-    margin-bottom: 30px;
-}
-
-.pricing-box .pricing-icon .icon {
-    display: inline-block;
-    background-color: #ecf0f6;
-    width: 94px;
-    height: 94px;
-    border-radius: 100px;
-    padding-top: 16px;
-}
-
-.pricing-box .pricing-icon .icon img {
-    width: 60px;
-}
-
-.pricing-box .pricing-details {
-    text-align: left;
-    margin-bottom: 35px;
-}
-
-.pricing-box .pricing-details>ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.pricing-box .pricing-details>ul>li {
-    position: relative;
-    font-size: 16px;
-    font-weight: 300;
-    color: #090a19;
-    padding: 6px 5px;
-    margin-bottom: 3px;
-    text-align: center;
-    z-index: 1;
-}
-
-.pricing-box .pricing-details>ul>li:before {
-    font-family: "hustbee" !important;
-    content: "\64";
-    margin-right: 10px;
-    margin-left: -20px;
-    color: #ffc600;
-    font-size: 10px;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.pricing-box .pricing-details>ul>li:after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    border-radius: 5px;
-    -webkit-box-shadow: 0 0 0 0 #adb2c3;
-    box-shadow: 0 0 0 0 #adb2c3;
-    z-index: -1;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.pricing-box .pricing-details>ul>li:hover:before {
-    color: #000000;
-}
-
-.pricing-box .pricing-details>ul>li:hover:after {
-    background-color: #f4f4f4;
-    -webkit-box-shadow: 0 0 0 1px #adb2c3;
-    box-shadow: 0 0 0 1px #adb2c3;
-}
-
-.pricing-box .pricing-price {
-    margin-bottom: 21px;
-}
-
-.pricing-box .pricing-price .price-info {
-    font-size: 14px;
-    font-weight: 300;
-    color: #090a19;
-}
-
-.pricing-box .pricing-price .price .currency,
-.pricing-box .pricing-price .price .num,
-.pricing-box .pricing-price .price .duration {
-    font-size: 23px;
-    font-weight: 300;
-    color: #3375e7;
-}
-
-.pricing-box .pricing-price .price .currency span,
-.pricing-box .pricing-price .price .num span,
-.pricing-box .pricing-price .price .duration span {
-    font-weight: 300;
-}
-
-.pricing-box .pricing-button {
-    margin-bottom: -65px;
-}
-
-.pricing-box .pricing-button a {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 600;
-    color: #ffffff;
-    text-decoration: none;
-    background-color: #5993fa;
-    padding: 12px 30px;
-    border-radius: 100px;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.pricing-box .pricing-button a:hover,
-.pricing-box .pricing-button a:focus {
-    background-color: #4083f9;
-}
-
-.pricing-box:hover {
-    -webkit-box-shadow: 0 0 0 3px #82a9ff;
-    box-shadow: 0 0 0 3px #82a9ff;
-}
-
-.pricing-box:hover .pricing-title {
-    font-weight: 500;
-}
-
-.pricing-box.inner {
-    padding: 15px;
-    padding: 24px 15px;
-    -webkit-box-shadow: 0 0 0 3px #82a9ff;
-    box-shadow: 0 0 0 3px #82a9ff;
-}
-
-.pricing-box.inner .pricing-title {
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.pricing-box.inner .pricing-price {
-    margin-bottom: 10px;
-}
-
-.pricing-box.inner .pricing-price .price .currency,
-.pricing-box.inner .pricing-price .price .num,
-.pricing-box.inner .pricing-price .price .duration {
-    font-weight: 300;
-}
-
-.pricing-box.inner .pricing-button {
-    margin-bottom: 30px;
-}
-
-.pricing-box.inner .pricing-button a {
-    display: inline-block;
-    font-size: 17px;
-    font-weight: 600;
-    color: #ffffff;
-    text-decoration: none;
-    background-color: #5993fa;
-    padding: 9px 40px;
-    border-radius: 100px;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.pricing-box.inner .pricing-button a:hover,
-.pricing-box.inner .pricing-button a:focus {
-    background-color: #4083f9;
-}
-
-.pricing-box.inner .pricing-details {
-    text-align: left;
-    margin-bottom: 10px;
-}
-
-.pricing-box.inner:hover,
-.pricing-box.inner.featured {
-    -webkit-box-shadow: 0 0 0 3px #ffc600;
-    box-shadow: 0 0 0 3px #ffc600;
-    padding: 34px 15px;
-    margin: 25px 0;
-}
-
-.sub-pricing {
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    text-align: center;
-    z-index: 10;
-}
-
-.sub-pricing .info-text {
-    font-size: 17px;
-    font-weight: 300;
-    color: #ffffff;
-    margin-bottom: 18px;
-}
-
-.sub-pricing .pricing-holder {
-    display: inline-block;
-    width: 100%;
-    max-width: 970px;
-}
-
-.d-toggle {
-    cursor: pointer;
-    margin-bottom: 10px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.d-toggle div {
-    display: inline-block;
-}
-
-.d-toggle .fd,
-.d-toggle .sd {
-    font-size: 12px;
-    color: #a2acbe;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.d-toggle .fd.active,
-.d-toggle .sd.active {
-    color: #ffc600;
-}
-
-.d-toggle .button {
-    width: 34px;
-    height: 14px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border-radius: 10px;
-    background-color: #ffc600;
-    vertical-align: middle;
-    position: relative;
-}
-
-.d-toggle .button:after {
-    position: absolute;
-    content: "";
-    width: 16px;
-    height: 16px;
-    top: 50%;
-    margin-top: -8px;
-    left: 19px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    -webkit-box-shadow: 0 0 5px rgba(81, 102, 121, 0.47);
-    box-shadow: 0 0 5px rgba(81, 102, 121, 0.47);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.d-toggle .button.on:after {
-    left: -3px;
-}
-
-.pull-top {
-    margin-top: -220px;
 }
 
 
@@ -3675,6 +3344,90 @@ section {
     }
 }
 
+#team {
+    padding: 40px 0;
+    text-align: left;
+    background-color: #d1d1d1;
+    color: #3d5e98;
+}
 
-/* Section with background
-  --------------------------------*/
+#team h2 {
+    position: relative;
+    padding: 0px 0px 15px;
+}
+
+#team p {
+    font-size: 15px;
+    font-style: italic;
+    padding: 0px;
+    margin: 25px 0px 40px;
+}
+
+
+/* #team h2::after {
+    content: '';
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    width: 90px;
+    display: block;
+} */
+
+#team .member {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.4);
+}
+
+#team .member .member-info {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    left: -200px;
+    transition: 0.4s;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#team .member:hover .member-info {
+    left: 0px;
+    right: 0px;
+}
+
+#team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+
+#team .member .social-links {
+    margin-top: 15px;
+}
+
+#team .member .social-links a {
+    transition: none;
+    color: #fff;
+}
+
+#team .member .social-links a:hover {
+    color: #ffc107;
+}
+
+#team .member .social-links i {
+    font-size: 18px;
+    margin: 0 2px;
+}
